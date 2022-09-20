@@ -1,0 +1,149 @@
+#div12{
+    background-color: #D9D9D9;
+}
+#h11{
+    font: italic;
+    font-size: 60px;
+    color: #F11B1B;
+}
+
+#ul1{
+   
+    font: italic;
+    font-size: 40px;
+    color: #000000;
+
+}
+#div2{
+   
+    margin-left: 10%;
+
+}
+#a1{
+   
+    font: italic;
+    font-size: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+button {
+    font-family: inherit;
+    font-size: 20px;
+    background: royalblue;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+   }
+   
+   button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+   }
+   
+   button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+   }
+   
+   button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+   }
+   
+   button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+   }
+   
+   button:hover span {
+    transform: translateX(5em);
+   }
+   
+   button:active {
+    transform: scale(0.95);
+   }
+   
+   @keyframes fly-1 {
+    from {
+     transform: translateY(0.1em);
+    }
+   
+    to {
+     transform: translateY(-0.1em);
+    }
+   }
+   #Bt1{
+    margin: 0 auto; 
+}  
+#divnom{
+    width: 90%;
+    font: italic;
+   
+    color: #000000;
+
+}
+#div3{
+    text-align: left;
+    width: 70%;
+    background-color: #F11B1B;
+    font: italic;
+    font-size: 30px;
+    color: #000000;
+
+}
+#div4{
+    
+    width: 90%;
+    text-align: right;
+    background-color: #000000;
+    font: italic;
+    font-size: 30px;
+    color: #000000;
+
+}
+#im1{
+    width: 200px;
+    height: 100px;
+}
+/*#div11{
+    background-color: rgb(0, 0, 0); 
+    float: right; 
+    padding:0px; 
+    width: 30%; 
+    height: 400px
+}
+#div21{
+    background-color: rgb(114, 4, 4); 
+    float: left; 
+    padding:0px; 
+    width: 70%; 
+    height: 400px; 
+    text-align: center;
+}
+#h31{
+    color: rgb(0, 0, 0);
+}
+#h41{
+    align-items: center;
+}
+#div12{
+    background-color: #D9D9D9; 
+    
+}
+#h12{
+    color: #ff0000; 
+    
+
+}
+*/
+#divbtn{
+    margin-left: 25%;;
+     
+ 
+ }
